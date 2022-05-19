@@ -17,9 +17,9 @@ React18
 chakra-ui
 
 ## Usage
-・Todoを登録　　input[新しいTodoを入力してね]→　button[作成]
-・Todoを更新　　Todo横のbutton[更新]を押すと上のinputにidとtodoが入力される
-　　　　　　　　　　　　　　　　　　　　　input[新しいTodoを入力してね]→　button[更新]
+・Todoを登録　　input[新しいTodoを入力してね]→　button[作成]<br>
+・Todoを更新　　Todo横のbutton[更新]を押すと上のinputにidとtodoが入力される<br>
+　input[新しいTodoを入力してね]→　button[更新]<br>
 .Todoを削除　　Todo横のbutton[完了]を押すと削除される
 
 ## API　URL
