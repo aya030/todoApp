@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.repository.TodoMapper">
+	<select id="findById" resultType="com.example.demo.entity.Todo">
+        SELECT
+            id,
+            title
+         FROM
+            todo_list
+         WHERE
+            id = #{id}
+    </select>
+	<select id="findAll" resultType="com.example.demo.entity.Todo">
+        SELECT
+            id,
+            title
+         FROM
+            todo_list
+    </select>
+	<insert id="insertOne">
+     INSERT into todo_list VALUES (
+           #{id,jdbcType=INTEGER},
+           #{title,jdbcType=VARCHAR}
+      )
+    </insert>
+	<update id="updateOne">
+     UPDATE  todo_list
+     SET   title = #{title,jdbcType=VARCHAR}
+     WHERE   id = #{id}
+    </update>
+	<delete id="deleteOne">
+     DELETE  FROM  todo_list
+     WHERE   id = #{id}  
+    </delete>
+</mapper>
