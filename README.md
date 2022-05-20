@@ -1,7 +1,7 @@
 # todoApp
 Java/SpringBootとReactのTodoApp
 
-https://user-images.githubusercontent.com/101713134/169201977-8715e706-c6d8-479c-a107-440482f424cb.mov
+https://user-images.githubusercontent.com/101713134/169451210-166f52a4-d0d8-4094-89e3-98fc9b5a3410.mov
 
 todoを登録、更新、削除のできるCRUDアプリ
 バックエンドはJava、フロントエンドはReact
@@ -17,9 +17,9 @@ React18
 chakra-ui
 
 ## Usage
-・Todoを登録　　input[新しいTodoを入力してね]→　button[作成]<br>
-・Todoを更新　　Todo横のbutton[更新]を押すと上のinputにidとtodoが入力される<br>input[新しいTodoを入力してね]→　button[更新]<br>
-・Todoを削除　　Todo横のbutton[完了]を押すと削除される
+・Todoを登録　　input[CreateTodo]→　button[Create]<br>
+・Todoを更新　　Todo横のbutton[Update]を押すと上のinputにidとtodoが入力される<br>input[UpdateTodo]→　button[Update]<br>
+・Todoを削除　　Todo横のbutton[Done]を押すと削除される
 
 ## API　URL
 | 画面名／機能名 | URL | method | Controller method | 
